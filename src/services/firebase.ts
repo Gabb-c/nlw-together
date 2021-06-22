@@ -1,6 +1,7 @@
 // * Firebase
 
 import firebase from 'firebase/app';
+import 'firebase/functions';
 import 'firebase/auth';
 import 'firebase/database';
 import 'firebase/analytics';
@@ -22,10 +23,12 @@ const firebaseConfig = {
 
 if (firebase.apps.length === 0) {
   firebase.initializeApp(firebaseConfig);
-  firebase.analytics();
 } else {
   firebase.app();
 }
 
-export const auth = firebase.auth();
-export const database = firebase.database();
+const auth = firebase.auth();
+const database = firebase.database();
+const { analytics } = firebase;
+
+export { auth, database, analytics };
