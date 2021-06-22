@@ -1,18 +1,9 @@
-<div align="center" justify="center">
-
-![nxt](https://user-images.githubusercontent.com/65926741/115777782-1a7bc500-a38c-11eb-8312-927963bab346.png)
-
-<p align="center">
-  <img alt="GitHub Workflow Status" src="https://img.shields.io/github/workflow/status/Gabb-c/next-ts-setup/Build?color=000000&labelColor=f72585&style=for-the-badge">
-  <img alt="GitHub Workflow Status" src="https://img.shields.io/github/workflow/status/Gabb-c/next-ts-setup/Build?color=000000&labelColor=480ca8&label=Lint&style=for-the-badge">
-  <img alt="GitHub Workflow Status" src="https://img.shields.io/github/workflow/status/Gabb-c/next-ts-setup/Test?color=000000&labelColor=4cc9f0&label=TESt&style=for-the-badge">
-  <img alt="GitHub" src="https://img.shields.io/github/license/Gabb-c/next-ts-setup?color=000000&labelColor=ff9e00&style=for-the-badge">
-</p>
-
-# Configure less, Code more
-
-A Next.js setup integrating with TypeScript
-
+<div align="center" justify="center">/
+  <p align="center">
+    <img alt="GitHub Workflow Status" src="https://img.shields.io/github/workflow/status/Gabb-c/nlw-together/Build?color=000000&labelColor=f72585&style=for-the-badge">
+    <img alt="GitHub Workflow Status" src="https://img.shields.io/github/workflow/status/Gabb-c/nlw-together/Build?color=000000&labelColor=480ca8&label=Lint& style=for-the-badge">
+    <img alt="GitHub Workflow Status" src="https://img.shields.io/github/workflow/status/Gabb-c/nlw-together/Test?color=000000&labelColor=4cc9f0&label=TESt& style=for-the-badge">
+  </p>
 </div>
 
 ## Features
@@ -27,65 +18,6 @@ A Next.js setup integrating with TypeScript
 - [Jest](https://jestjs.io/) with [Enzyme](https://enzymejs.github.io/enzyme/)
 - [Test](https://github.com/Gabb-c/next-ts-setup/blob/master/.github/workflows/lint.yml), [Build](https://github.com/Gabb-c/next-ts-setup/blob/master/.github/workflows/build.yml) and [Lint](https://github.com/Gabb-c/next-ts-setup/blob/master/.github/workflows/lint.yml) workflows
 - [Commit Lint](https://commitlint.js.org/#/) with [Husky](https://typicode.github.io/husky/#/)
-
-## Getting Started
-
-First, run:
-
-```bash
-npm install # If you're using npm
-# or
-yarn # If you're using yarn
-```
-
-Then, run the development server:
-
-```bash
-npm run dev
-# or
-yarn dev
-```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `src/pages/index.js`. The page auto-updates as you edit the file.
-
-## ESLint
-
-If you're having trouble with ESLint rules, check the [`ESLint Documentation`](https://eslint.org/docs/user-guide/getting-started).
-
-The recommended VSCode config on `.vscode/settings.json`, but make sure you have this options checked:
-
-`File > Preferences > Settings > Extensions > ESLint`
-
-![ESLint Formater](/examples/images/eslint-save.png)
-
-`File > Preferences > Settings > Text Editor`
-
-![Editor Format](/examples/images/eslint-format.png)
-
-## Recommended Extensions
-
-There's a file with the recommended extensions and a nstalation script in `.vscode` folder.
-
-You can run the script like this:
-
-```bash
-chmod +x install-ext.sh # Permission to execute
-# And then
-./install-ext.sh # Execute the script
-```
-
-## Update your repository with this template
-
-As Next.js releases more features, this template will be updated. So keep your repository up to date
-by doing these steps:
-
-```bash
-git remote add template https://github.com/Gabb-c/gabbc-page.git
-git fetch --all
-git merge template/[branch to merge] # If git refuses, add the flag --allow-unrelated-histories
-```
 
 ## Learn More
 
