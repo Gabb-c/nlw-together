@@ -1,23 +1,4 @@
-<div align="center" justify="center">/
-  <p align="center">
-    <img alt="GitHub Workflow Status" src="https://img.shields.io/github/workflow/status/Gabb-c/nlw-together/Build?color=000000&labelColor=f72585&style=for-the-badge">
-    <img alt="GitHub Workflow Status" src="https://img.shields.io/github/workflow/status/Gabb-c/nlw-together/Build?color=000000&labelColor=480ca8&label=Lint& style=for-the-badge">
-    <img alt="GitHub Workflow Status" src="https://img.shields.io/github/workflow/status/Gabb-c/nlw-together/Test?color=000000&labelColor=4cc9f0&label=TESt& style=for-the-badge">
-  </p>
-</div>
-
-## Features
-
-- [Next.js](https://nextjs.org/docs/getting-started) integrating with [TypeScript](https://www.typescriptlang.org/)
-- [Styled Components](https://styled-components.com/) with [SSR](https://nextjs.org/docs/basic-features/pages) (Server Side Rendering)
-- [Storybook](https://storybook.js.org/)
-- [Webpack 5](https://webpack.js.org/blog/2020-10-10-webpack-5-release/)
-- [Sass](https://sass-lang.com/)
-- [ESLint Airbnb configuration](https://github.com/airbnb/javascript)
-- [Editorconfig](https://editorconfig.org/)
-- [Jest](https://jestjs.io/) with [Enzyme](https://enzymejs.github.io/enzyme/)
-- [Test](https://github.com/Gabb-c/next-ts-setup/blob/master/.github/workflows/lint.yml), [Build](https://github.com/Gabb-c/next-ts-setup/blob/master/.github/workflows/build.yml) and [Lint](https://github.com/Gabb-c/next-ts-setup/blob/master/.github/workflows/lint.yml) workflows
-- [Commit Lint](https://commitlint.js.org/#/) with [Husky](https://typicode.github.io/husky/#/)
+![NLW-TOGETHER](https://user-images.githubusercontent.com/65926741/122983934-dd738500-d372-11eb-9dd2-6a6ee64e5dbf.png)
 
 ## Learn More
 
