@@ -7,6 +7,8 @@ import { toast, ToastContainer } from 'react-toastify';
 import GlobalStyle from '../styles/global';
 import theme from '../styles/theme';
 
+import '../services/firebase';
+
 const MyApp: React.FC<AppProps> = ({ Component, pageProps }): JSX.Element => {
   React.useEffect(() => {
     toast.success('Next.js is so nice!');
