@@ -26,7 +26,7 @@
     "test:coverage": "jest --coverage",
     "test:dev": "jest --verbose --colors --expand --maxWorkers=50% --detectOpenHandles --errorOnDeprecated",
     "test:ci": "jest --ci --runInBand --bail",
-    "analyze": "BUNDLE_ANALYZE=both yarn build",
+    "analyze": "ANALYZE=true yarn build",
     "find:unused": "next-unused",
     "prepare": "is-ci || husky install",
     "storybook": "start-storybook -p 6006",

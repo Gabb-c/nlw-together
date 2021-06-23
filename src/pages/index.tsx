@@ -1,13 +1,18 @@
 import React from 'react';
-import Logo from '../assets/logo.svg';
-import { Container, ImageContainer } from '../styles/pages/home';
+import Image from 'next/image';
 
 const Home: React.FC = () => (
-  <Container>
-    <ImageContainer>
-      <Logo />
-    </ImageContainer>
-  </Container>
+  <div>
+    <aside>
+      <Image
+        src="/assets/illustration.svg"
+        alt="Ilustration"
+        height={404}
+        width={313}
+        layout="responsive"
+      />
+    </aside>
+  </div>
 );
 
 export default Home;
