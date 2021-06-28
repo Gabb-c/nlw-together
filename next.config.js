@@ -23,6 +23,9 @@ module.exports = withBundleAnalyzer({});
  **/
 const nextConfig = {
   webpack5: true,
+  images: {
+    domains: ['lh3.googleusercontent.com'],
+  },
 };
 
 module.exports = nextConfig;

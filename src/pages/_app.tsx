@@ -12,7 +12,7 @@ import { AuthProvider } from 'src/contexts/auth';
 const MyApp: React.FC<AppProps> = ({ Component, pageProps }): JSX.Element => (
   <AuthProvider>
     <Component {...pageProps} />
-    <ToastContainer />
+    <ToastContainer hideProgressBar closeButton={false} />
   </AuthProvider>
 );
 
